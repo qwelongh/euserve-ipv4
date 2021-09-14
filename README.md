@@ -33,8 +33,9 @@
 echo -e "nameserver 2a00:1098:2b::1\nnameserver 2a03:7900:2:0:31:3:104:161" > /etc/resolv.conf
 ```
 ```bash
-wget -N --no-check-certificate "https://raw.githubusercontent.com/fscarmen/warp/main/warp.sh" && chmod +x warp.sh && ./warp.sh
+wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/kkkyg/DJwarp/DJwarp.sh && chmod +x DJwarp.sh && ./DJwarp.sh
 ```
+
 
 
 ## 为IPv4服务器添加IPv6网络接口方法
